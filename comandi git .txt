@@ -1,0 +1,38 @@
+Account GitHub
+urasi.cz@gmail.com
+Leon@@1974!
+username: AntonioMazzaCZ
+
+CONFIG
+
+git config
+ESEMPIO:
+	git config --global user.email
+	git config --global user.email="<email>"
+it config --list
+git config --help
+
+INIT : crea un repository
+git init
+
+CLONE
+git clone <nome repository>
+
+git status (indica lo stato dei files del repository)
+git add <nome file> (inserisce il file nella staged area)
+git rm <nome file> (rimuove il file dalla working area, la rimogione verrà registrata al prossimo commit)
+git rm --cached <nome file> (rimuove il file dalla staged area)
+
+git restore <nome file> (rimuove le modifiche del file nella working directory)
+git restore --staged <nome file> (rimuove il file dalla staged area)
+
+git commit -m <messaggio commit> (commit da riga di comando senza aprire l'editor per inserire il messaggio)
+git commit --amend (sovrascrive l'ultimo commit)
+git commit --amend -m <messaggio commit> (sovrascrive l'ultimo commit reimpostando il messaggio)
+
+git dif (visualizza le modifiche di tutti i file rispetto l'ultimo commit)
+git dif <nome file> (visualizza le modifiche di un singolo file rispetto l'ultimo commit)
+
+git remote add <alias repository> <path repository>  (aggiunge repository)
+ESEMPIO:
+	git remote add origin https://github.com/AntonioMazzaCZ/TEST.git  (aggiunge repository principale "origin" da github)
