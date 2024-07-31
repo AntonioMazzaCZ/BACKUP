@@ -1,5 +1,4 @@
 CONFIG
-
 git config
 ESEMPIO:
 	git config --global user.email
