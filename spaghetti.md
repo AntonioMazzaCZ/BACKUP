@@ -8,4 +8,5 @@ Mi piacciono tanto
 *aglio
 *ollio
 *peperomncino
+*prezzemolo
 
